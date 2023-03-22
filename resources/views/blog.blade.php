@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>This is my blog</h1>
+    @include('partials.navigation')
     <a href="/">return</a>
 </body>
 </html>

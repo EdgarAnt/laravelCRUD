@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>About</h1>
+    @include('partials.navigation')
     <a href="/">return</a>
 
 </body>
