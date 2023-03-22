@@ -8,13 +8,14 @@
 </head>
 <body>
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">blog</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contacto</a></li>
+        <li><a href="<?=route('home')?>">Home</a></li>
+        <li><a href="<?=route('blog')?>">blog</a></li>
+        <li><a href="<?=route('about')?>">About</a></li>
+        <li><a href="<?=route('contact')?>">Contacto</a></li>
     </ul>
     <h1>Welcome :D</h1>
     <p>This is a page in progress, so enjoy the construction</p>
     <iframe src="https://giphy.com/embed/6IcLJFT5bHqZ4zYWi5" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    
 </body>
 </html>
