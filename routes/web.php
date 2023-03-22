@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// personal-site.com => welcome
+// personal-site.com/contacto => contacto
+// personal-site.com/avbout => about
+
+
+Route::view('/','welcome');
+Route::view('/contact','contact');
+Route::view('/blog','blog');
+Route::view('/about','about');
